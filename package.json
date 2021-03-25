@@ -1,5 +1,5 @@
 {
-  "name": "vue-plugin-extension-framework",
+  "name": "vmx-sample",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -49,5 +49,5 @@
     "not ie <= 8"
   ],
   "keywords": [],
-  "description": "Sample Usage for Vue Plugin Extension Framework"
+  "description": ""
 }

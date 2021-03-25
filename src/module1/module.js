@@ -1,6 +1,6 @@
 export default {
   name: "module1",
-  dependsOn: ["router", "menu", "home"],
+  dependsOn: ["router", "menu"],
   extensions: {
     router: [
       {
