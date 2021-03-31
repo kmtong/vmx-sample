@@ -9,20 +9,22 @@
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
-    "vmx-request": "1.0.1",
-    "vmx-request-elm": "1.0.0",
-    "vmx-router": "1.0.1",
-    "vmx-vuex": "1.0.1",
-    "vue": "^2.6.11",
-    "vue-modx": "1.0.0"
+    "axios": "0.21.1",
+    "vmx-request": "3.0.0",
+    "vmx-router": "3.0.0",
+    "vmx-vuex": "3.0.0",
+    "vue": "3.0.9",
+    "vue-modx": "3.0.1",
+    "vue-router": "4.0.5",
+    "vuex": "4.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "4.1.1",
-    "@vue/cli-service": "4.1.1",
+    "@vue/cli-plugin-eslint": "^4.5",
+    "@vue/cli-service": "^4.5",
+    "@vue/compiler-sfc": "^3.0.9",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.0.1",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-plugin-vue": "^6.0.1"
   },
   "eslintConfig": {
     "root": true,

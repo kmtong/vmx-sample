@@ -1,4 +1,4 @@
-import Vue from "vue";
+import { createApp } from "vue";
 import VueModx from "vue-modx";
 import RouterModule from "vmx-router";
 import RequestModule from "vmx-request";
@@ -12,9 +12,9 @@ import Layout from "./layout/module.js";
 import Home from "./home/module.js";
 import Module1 from "./module1/module.js";
 
-Vue.config.productionTip = false;
+let app = createApp(App);
 
-Vue.use(VueModx, {
+app.use(VueModx, {
   modules: [
     RouterModule,
     RequestModule,
@@ -33,11 +33,5 @@ Vue.use(VueModx, {
   }
 });
 
-const router = RouterModule.router();
-const store = VuexModule.store();
+app.mount("#app");
 
-new Vue({
-  router,
-  store,
-  render: (h) => h(App)
-}).$mount("#app");
